@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Earl the Cat</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <!--[if lt IE 9]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">var IE7_PNG_SUFFIX = ".png";</script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+        <!--[if lt IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/ie6.css" />
+        <![endif]-->
+        <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="application/javascript" src="js/game-controller.js"></script>
+    </head>
+    <body>
+        <noscript>
+            <p>You need to have JavaScript enabled in your browser in order to play Earl the Game.</p>
+        </noscript>
+        <div id="content">
+            <h1>Earl the Cat</h1>
+            <div id="earl-game-area" class="main-area">
+                <div class="control-panel">
+                    <h2>Control Panel</h2>
+                    <button data-action="fade">Fade</button>
+                    <button data-action="jump">Jump</button>
+                    <button data-action="show-bubble">Speech Bubble!</button>
+                </div>
+                <div class="park">
+                    <div class="sky"></div>
+                    <div class="grass"></div>
+                    <div class="earl"></div>
+                    <div id="speech-bubble"> 
+                        <div class="message">I'm awesome!</div>
+                        <div class="circle-first"></div>
+                        <div class="circle-second"></div>
+                        <div class="circle-third"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="http://validator.w3.org/check?uri=referer" title="Valid XHTML 1.1">
+                <img src="http://www.w3.org/Icons/valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88"/>
+            </a>
+        </div>
+    </body>
+</html>

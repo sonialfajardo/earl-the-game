@@ -1,0 +1,153 @@
+body {
+    background: #ff5603 url('../img/yellow-stripe.png') repeat-x;
+    color: black;
+    font-size: 14pt;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    background: white;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 760px;
+}
+
+h1, h2 {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+.main-area {
+    width: 100%;
+    height: 500px;
+}
+
+.control-panel {
+    border: 2pt dotted #686868;
+    float: left;
+    width: 200px;
+    height: 456px;
+    padding: 20px;
+}
+
+.control-panel button {
+    background: #c6c6c6;
+    border-top: 2pt solid #d8d8d8;
+    border-right: 2pt solid #707070;
+    border-bottom: 2pt solid #707070;
+    border-left: 2pt solid #d8d8d8;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+    padding: 5px;
+    width: 150px;
+    display: block;
+}
+
+.control-panel button:hover {
+    background: #d3d3d3;
+}
+
+.control-panel button.disabled {
+    color: grey;
+}
+
+.control-panel button:active, .control-panel button.disabled {
+    background: #e0e0e0;
+    border-top: 2pt solid #b0b0b0;
+    border-right: 2pt solid #f0f0f0;
+    border-bottom: 2pt solid #f0f0f0;
+    border-left: 2pt solid #b0b0b0;
+}
+
+.park {
+    height: 100%;
+    margin-left: 260px;
+    position: relative;
+}
+
+.park .sky {
+    height: 63%;
+    position: relative;
+    background: url('../img/sky.png') repeat-x;
+}
+
+.park .grass {
+    height: 37%;
+    position: relative;
+    background: url('../img/grass.png') repeat-x;
+}
+
+.park .earl {
+    width: 82px;
+    height: 120px;
+    top: 200px;
+    left: 350px;
+    right: 1px;
+    position: absolute;
+    background: url('../img/earl.png') no-repeat;
+}
+
+#speech-bubble {
+    opacity: 0;
+}
+
+#speech-bubble .message {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 233px;
+    height: 30px;
+    top: 73px;
+    left: 81px;
+    background: #e0e0e0;
+    position: absolute;
+    font-size: 1.0em;
+    text-align: center;
+    padding: 15px 5px 10px 5px;
+}
+
+#speech-bubble .circle-first, #speech-bubble .circle-second, #speech-bubble .circle-third {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #e0e0e0;
+    position: absolute;
+}
+   
+#speech-bubble .circle-first {
+    width: 40px;
+    height: 40px;
+    top: 130px;
+    left: 280px;
+}
+
+#speech-bubble .circle-second {
+    width: 30px;
+    height: 30px;
+    top: 158px;
+    left: 314px;
+}
+
+#speech-bubble .circle-third {
+    width: 20px;
+    height: 20px;
+    top: 185px;
+    left: 336px;
+}
+
+.signature {
+    font-size: .55em;
+    font-weight: bold;
+    text-align: center;
+}
